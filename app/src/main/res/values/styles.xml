@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_15</item>
+        <item name="style">@style/Widget.AppCompat.Button.Colored</item>
+    </style>
 </resources>
